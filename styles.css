@@ -1,0 +1,65 @@
+
+.submit-button {
+    background-color: blue;
+    color: white; 
+    width: 100px;
+    height: 50px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+  }
+  #magazine-title{
+    background-color: rgba(25, 45, 202, 0.566);
+    color: azure;
+    width: 335px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  p {
+    font-size: 16px;
+  }
+  a:hover{  
+  color: rgb(184, 193, 200)
+}
+nav ul {
+    list-style: none;
+    padding: 6px;}
+nav  {
+    margin-bottom: 12px;
+  }
+  
+nav a {
+    text-decoration: underline;
+    color: rgba(25, 45, 202, 0.566);
+    font-size: 16px;
+    position: relative; /* Este necesar pentru a poziționa simbolul Unicode */
+  }
+nav a::before {;
+    content: "\2605"; /* Codul Unicode pentru o stea */
+    margin-right: 3px; /* Spațiu între stea și textul link-ului */
+    color: #ffdb19; /* Culoarea stelei */
+    text-decoration : none
+  }
+  .element {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(147, 114, 114);
+  }
+  
+  .element::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;}
+    h1 {
+    background-color: rgba(25, 45, 202, 0.566);
+            color: white;
+            padding: 10px;
+          }
+          
+    }
