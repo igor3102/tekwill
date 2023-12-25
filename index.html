@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div style="background-image: url('cover.jpg')">
+        <header id="nav-main">
+          <h2 class="sprivaten">Sprivaten</h2>
+          <nav>
+            <a href="#" class="info"><strong> Product </strong></a>
+            <a href="#" class="info"><strong> Pricing</strong></a>
+            <a href="#" class="info"><strong>Home</strong></a>
+            <a href="#" class="info"><strong> Contact</strong></a>
+            <div class="container">
+              <a href="#">
+                <img alt="Search" src="icn-search.svg"alt="Loupe icon"
+                class="loupe-icon"</a
+              >
+              <a href="#"
+                ><img
+                  src="icn-shopping-cart.svg"
+                  alt="Shopping-cart"
+                  class="shopping-cart-icon"
+              /></a>
+            </div>
+          </nav>
+        </header>
+        <br /><br />
+        <section id="home-screen">
+          <div class="title-container">
+            <h1>
+              <strong>We Take Care of<br />the Future </strong>
+            </h1>
+            <h4>
+              We know how large objects will act, <br />but things on a small
+              scale.
+            </h4>
+            <button type="text" class="action-btn">Get Qoute Now</button>
+            <button type="text" class="learn-more-btn">Learn More</button>
+          </div>
+          <div class="registration">
+            <h3 class="text-appointment"><strong>Book Appointment</strong></h3>
+            <form action="#" class="appointment-form">
+              <label for="name">Name*:</label> <br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                required
+              /><br /><br />
+              <label for="email">Email*</label><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="example@gmail.com"
+                name="email"
+                required
+              /><br />
+              <label for="departments">Department*:</label> <br />
+              <select id="department" name="departmnet" required>
+                <option value="" disable select>
+                  &nbsp;&nbsp;&nbsp;&nbsp;Please Select
+                </option>
+                <option>HR</option>
+                <option>IT</option>
+              </select>
+              <br /><br />
+              <label for="time">Time*:</label><br />
+              <select id="time" name="time" required>
+                <option value="" disabled selected>
+                  &nbsp;&nbsp;&nbsp;&nbsp;4:00 Availible
+                </option>
+                <option>6:00 Availible</option>
+                <option>8:00 Availible</option></select
+              ><br /><br />
+              <button type="submit" class="submit-appointment">
+                Book Appointment
+              </button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
